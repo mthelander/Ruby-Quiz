@@ -1,4 +1,4 @@
-require '~/work/rubyquiz/solitaire_cipher.rb'
+require '~/work/rubyquiz/solitaire_cipher/solitaire_cipher.rb'
 
 describe "SolitaireCipher" do
   describe "with a default cipher" do
