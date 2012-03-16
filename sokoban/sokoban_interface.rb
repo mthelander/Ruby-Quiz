@@ -17,14 +17,14 @@ module RubyQuiz
   }
 
   MOVEMENT_KEYS = {
-    "\027[A" => :up,
-    "\027[B" => :down,
-    "\027[D" => :left,
-    "\027[C" => :right,
-    "k"      => :up,
-    "j"      => :down,
-    "h"      => :left,
-    "l"      => :right
+    "A" => :up,
+    "B" => :down,
+    "D" => :left,
+    "C" => :right,
+    "k" => :up,
+    "j" => :down,
+    "h" => :left,
+    "l" => :right
   }
 
   class SokobanInterface
