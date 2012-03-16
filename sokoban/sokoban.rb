@@ -10,7 +10,7 @@ File.open("levels.txt") do |fh|
 end
 
 current_level = start == 0 ? 1 : start
-levels.each do |level|
+levels[current_level-1..levels.length].each do |level|
   sokoban = SokobanInterface.new(level, "-=-= Level #{current_level} =-=-")
   if sokoban.play
     puts "YOU WON!"
